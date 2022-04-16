@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+body{
+    background-color: aliceblue;
+    
+}
+.header{
+    background-color: #5995fd;
+    position: sticky;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.header .text{
+    color: aliceblue;
+    
+}
+.text1{
+    font-size: 2rem;
+    margin-left: 10px;
+}
+.text2{
+    margin-left: 460px;
+}
+.text3{
+    margin-left: 360px;
+}
+
+
+.text4 .endTestBtn{
+    margin-right: 20px;
+    height: 40px;
+    width: 90px;
+    border: 2px solid rgb(18, 69, 146);
+    border-radius: 7px;   
+}
+
+.text4 .endTestBtn:hover{
+    cursor: pointer;
+}
+.container-main{
+    display: flex;
+    /* border: 2px solid red; */
+    height: 800px;
+}
+
+.container-main .leftpart{
+    margin-top: 20px;
+    /* border: 2px solid green; */
+    background-color: white;
+    width: 200px;
+    height: 80%;
+    padding:10px;
+    margin:15px;
+    border:1px solid black;
+    border-radius: 5px;
+}
+.container-main .leftpart .containerText{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.container-main .leftpart .questionNo{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 7px;
+    border: 2px solid black;
+}
+.red{
+    background-color: red;
+    border: 2px solid red;
+    color: white;
+}
+.green{
+    background-color: rgb(15, 175, 50);
+    border: 2px solid red;
+    color: white;
+}
+.voilet{
+    background-color: rgb(108, 8, 148);
+    border: 2px solid red;
+    color: white;
+}
+.gray{
+    background-color: rgb(182, 174, 174);
+}
+
+.container-main .rightpart{
+    margin-top: 20px;
+    /* border: 2px solid yellow; */
+    background-color: white;
+    width: 80%;
+    height: 70%;
+    margin-left: 30px;
+    /* box-shadow: 5px 10px #c2bfbf */
+    
+}
+.rightpart .qsno{
+    margin: 10px;
+
+}
+.rightpart .qssm{
+    background-color: rgb(243, 247, 240);
+    box-shadow: 5px 6px #e0e4e0;
+    border: 1px solid rgb(173, 167, 167);
+    margin-top:20px ;
+    margin-left: 20px;
+    border-radius: 5px;
+    height: 80px;
+    width: 80%;
+    padding: 10px;
+}
+.rightpart .option{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+    margin-left:20px;
+    padding:25px;
+   
+}
+
+.rightpart .option .option1{
+    margin:10px;
+    height:25px;
+    width:925px;
+}
+
+.rightpart .option .option1:hover{
+    cursor: pointer;
+    border:1px solid grey;
+    border-radius:10px;
+    background:#DCDCDC;
+}
+.subSec{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70px;
+    background-color: aliceblue;
+    
+}
+.subSec .sub{
+    margin-right: 40px;
+    /* margin-left: 20px; */
+    /* margin-top: 20PX; */
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: #5995fd;
+    border: 2px solid rgb(72, 72, 255);
+    border-radius: 5px;
+    text-align: center;
+}
+.subSec .sub:hover{
+    letter-spacing: .1rem;
+    cursor: pointer;
+}
+
+.correctans
+{
+    
+    margin-top: 40px;
+    margin: 20px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    
+}
+/* .cbtn{
+    position: relative;
+    right: 0;
+    color: black;
+} */
+.choice .c1{
+    width: 120px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: white;
+    border: 2px solid rgb(34, 194, 19);
+    color: rgb(34, 194, 19);
+    margin-left: 20px;
+}
+.choice .c1:hover{
+    background-color:rgb(34, 194, 19) ;
+    color: white;
+    cursor: pointer;
+}
+.choice .c2{
+    width: 120px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: white;
+    border: 2px solid rgb(72, 72, 255)  ;
+    color: rgb(72, 72, 255);
+    margin-left: 30px;
+}
+.choice .c2:hover{
+    background-color:rgb(72, 72, 255) ;
+    color: white;
+    cursor: pointer;
+}
+.choice .c3{
+    width: 120px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: white;
+    border: 2px solid red ;
+    color: red;
+    margin-left: 30px;
+}
+.choice .c3:hover{
+    background-color:red ;
+    color: white;
+    cursor: pointer;
+}
+.choice .c4{
+    width: 120px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: white;
+    border: 2px solid rgb(108, 8, 148);
+    color: rgb(108, 8, 148);
+    margin-left: 100px;
+}
+.choice .c4:hover{
+    background-color:rgb(108, 8, 148) ;
+    color: white;
+    cursor: pointer;
+}
+
+
